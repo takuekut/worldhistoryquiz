@@ -13,6 +13,12 @@
 		85C01273243350EA002F18EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C01272243350EA002F18EC /* Assets.xcassets */; };
 		85C01276243350EA002F18EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85C01275243350EA002F18EC /* Preview Assets.xcassets */; };
 		85C01279243350EB002F18EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85C01277243350EA002F18EC /* LaunchScreen.storyboard */; };
+		85C0128124335136002F18EC /* PhotoData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C0128024335136002F18EC /* PhotoData.swift */; };
+		85C0128324335188002F18EC /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C0128224335188002F18EC /* Array.swift */; };
+		85C01285243351A6002F18EC /* PhotoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C01284243351A6002F18EC /* PhotoRow.swift */; };
+		85C01287243351E1002F18EC /* PhotoDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C01286243351E1002F18EC /* PhotoDetailView.swift */; };
+		85C012892433521A002F18EC /* QuestionsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C012882433521A002F18EC /* QuestionsData.swift */; };
+		85C0128B24335269002F18EC /* QuestionsDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C0128A24335269002F18EC /* QuestionsDetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		85C01275243350EA002F18EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		85C01278243350EB002F18EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85C0127A243350EB002F18EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85C0128024335136002F18EC /* PhotoData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoData.swift; sourceTree = "<group>"; };
+		85C0128224335188002F18EC /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		85C01284243351A6002F18EC /* PhotoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoRow.swift; sourceTree = "<group>"; };
+		85C01286243351E1002F18EC /* PhotoDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailView.swift; sourceTree = "<group>"; };
+		85C012882433521A002F18EC /* QuestionsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsData.swift; sourceTree = "<group>"; };
+		85C0128A24335269002F18EC /* QuestionsDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionsDetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +71,15 @@
 				85C0126C243350E7002F18EC /* AppDelegate.swift */,
 				85C0126E243350E7002F18EC /* SceneDelegate.swift */,
 				85C01270243350E7002F18EC /* ContentView.swift */,
-				85C01272243350EA002F18EC /* Assets.xcassets */,
+				85C0128024335136002F18EC /* PhotoData.swift */,
+				85C01284243351A6002F18EC /* PhotoRow.swift */,
+				85C0128224335188002F18EC /* Array.swift */,
 				85C01277243350EA002F18EC /* LaunchScreen.storyboard */,
 				85C0127A243350EB002F18EC /* Info.plist */,
+				85C0128A24335269002F18EC /* QuestionsDetailView.swift */,
+				85C012882433521A002F18EC /* QuestionsData.swift */,
+				85C01286243351E1002F18EC /* PhotoDetailView.swift */,
+				85C01272243350EA002F18EC /* Assets.xcassets */,
 				85C01274243350EA002F18EC /* Preview Content */,
 			);
 			path = worldhistory;
@@ -147,7 +165,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				85C0126D243350E7002F18EC /* AppDelegate.swift in Sources */,
+				85C0128324335188002F18EC /* Array.swift in Sources */,
+				85C01287243351E1002F18EC /* PhotoDetailView.swift in Sources */,
+				85C012892433521A002F18EC /* QuestionsData.swift in Sources */,
 				85C0126F243350E7002F18EC /* SceneDelegate.swift in Sources */,
+				85C01285243351A6002F18EC /* PhotoRow.swift in Sources */,
+				85C0128B24335269002F18EC /* QuestionsDetailView.swift in Sources */,
+				85C0128124335136002F18EC /* PhotoData.swift in Sources */,
 				85C01271243350E7002F18EC /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
